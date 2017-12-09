@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8438AF401FDBEC6600735559 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438AF3F1FDBEC6600735559 /* Meal.swift */; };
+		8438AF421FDBF15E00735559 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438AF411FDBF15E00735559 /* MealTableViewCell.swift */; };
+		8438AF441FDC065800735559 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438AF431FDC065800735559 /* MealTableViewController.swift */; };
 		AC5456BE1FD150A2000CC5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5456BD1FD150A2000CC5CD /* AppDelegate.swift */; };
 		AC5456C01FD150A2000CC5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5456BF1FD150A2000CC5CD /* ViewController.swift */; };
 		AC5456C31FD150A2000CC5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5456C11FD150A2000CC5CD /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8438AF3F1FDBEC6600735559 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		8438AF411FDBF15E00735559 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		8438AF431FDC065800735559 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		AC5456BA1FD150A2000CC5CD /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5456BD1FD150A2000CC5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5456BF1FD150A2000CC5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +85,10 @@
 			children = (
 				AC5456BD1FD150A2000CC5CD /* AppDelegate.swift */,
 				AC5456BF1FD150A2000CC5CD /* ViewController.swift */,
+				8438AF3F1FDBEC6600735559 /* Meal.swift */,
 				AC5456C11FD150A2000CC5CD /* Main.storyboard */,
+				8438AF431FDC065800735559 /* MealTableViewController.swift */,
+				8438AF411FDBF15E00735559 /* MealTableViewCell.swift */,
 				AC5456C41FD150A2000CC5CD /* Assets.xcassets */,
 				AC5456C61FD150A2000CC5CD /* LaunchScreen.storyboard */,
 				AC5456C91FD150A2000CC5CD /* Info.plist */,
@@ -199,7 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8438AF441FDC065800735559 /* MealTableViewController.swift in Sources */,
+				8438AF421FDBF15E00735559 /* MealTableViewCell.swift in Sources */,
 				AC5456C01FD150A2000CC5CD /* ViewController.swift in Sources */,
+				8438AF401FDBEC6600735559 /* Meal.swift in Sources */,
 				AC5456BE1FD150A2000CC5CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +418,7 @@
 				AC5456D91FD150A2000CC5CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5456DA1FD150A2000CC5CD /* Build configuration list for PBXNativeTarget "TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +427,7 @@
 				AC5456DC1FD150A2000CC5CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
