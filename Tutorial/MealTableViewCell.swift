@@ -14,6 +14,7 @@ class MealTableViewCell: UITableViewCell {
     
     @IBOutlet weak var ratingLabel: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
